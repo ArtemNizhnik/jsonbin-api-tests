@@ -17,5 +17,4 @@ export const test = base.extend<ApiFixture>({
   await use(apiContext);
 },
 });
-
 export const expect = test.expect;
