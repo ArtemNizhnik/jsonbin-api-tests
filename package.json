@@ -1,0 +1,32 @@
+{
+  "name": "jsonbin-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemNizhnik/jsonbin-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemNizhnik/jsonbin-api-tests/issues"
+  },
+  "homepage": "https://github.com/ArtemNizhnik/jsonbin-api-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "playwright": "^1.58.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "fsevents": "^2.3.2",
+    "playwright-core": "^1.58.2",
+    "undici-types": "^7.16.0"
+  }
+}
