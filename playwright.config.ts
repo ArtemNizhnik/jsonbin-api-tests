@@ -9,8 +9,8 @@ export default defineConfig({
   use: {
     baseURL: BASE_URL,
     extraHTTPHeaders: {
-      'X-Master-Key': process.env.JSONBIN_API_KEY || '',
-      'Content-Type': 'application/json'
-    }
+  'X-Master-Key': process.env.JSONBIN_API_KEY as string,
+  'Content-Type': 'application/json'
+}
   }
 });
