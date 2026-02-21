@@ -14,3 +14,4 @@ export default defineConfig({
 }
   }
 });
+console.log('KEY:', process.env.JSONBIN_API_KEY);
